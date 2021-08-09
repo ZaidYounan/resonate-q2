@@ -2,7 +2,7 @@
     display:flex;
     flex-direction:column;
     flex-wrap:wrap;
-    align-content:center;
+    align-items:center;
     background-color:#023047;
 }
 
@@ -52,6 +52,24 @@
       color:black;
       transition:all 0.2s ease-in-out;
   }
+
+  .topbar {
+      display:flex;
+      flex-direction:column;
+      justify-content:space-between;
+      align-items:center;
+      color:white;
+      font-size:x-large;
+      width:80%;
+      margin-left:5%;
+  }
+
+  .topbar > h1 {
+      margin:0;
+      margin-top:5%;
+  }
+  
+
   
   @media screen and (max-width:960px) {
     .contacts-page {

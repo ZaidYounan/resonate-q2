@@ -17,6 +17,7 @@
     background-color:azure;
     font-size:larger;
     color:black;
+    align-items:center;
 }
 
 .four {
@@ -46,6 +47,8 @@ a.back-link:hover {
     transition:all 0.2s ease-in-out;
 }
 
+
+
 @media screen and (max-width:550px) {
     .user-container {
         flex-direction:column;
@@ -54,4 +57,5 @@ a.back-link:hover {
     .user-page {
         flex-direction:column;
     }
+
 }

@@ -26,7 +26,7 @@ function User({ id }){
                 <div className="user-container">
                     <i class="fas fa-user fa-10x four"></i>
                     <div className="user-text">
-                        <p><strong>{user.name.toUpperCase()}</strong></p>
+                        <p><h1>{user.name.toUpperCase()}</h1></p>
                         <p><strong>Username:</strong> {user.username}</p>
                         <p><strong>Email:</strong> {user.email}</p>
                         <p><strong>Address:</strong> {user.address.suite}, {user.address.street}, {user.address.city}</p>
