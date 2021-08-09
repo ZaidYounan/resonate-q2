@@ -1,0 +1,14 @@
+.user-page {
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.user-container {
+    border:solid black 1px;
+    margin: 5%;
+    padding: 3%;
+    box-shadow: 5px 10px 15px;
+
+}
