@@ -31,11 +31,11 @@ function User({ id }){
                         <p><strong>Email:</strong> {user.email}</p>
                         <p><strong>Address:</strong> {user.address.suite}, {user.address.street}, {user.address.city}</p>
                         <p><strong>Phone:</strong> {user.phone}</p>
-                        <p><strong>Website:</strong> {user.website}</p>
+                        <p><strong>Website:</strong> <a href={`http://${user.website}`}>{`www.${user.website}`}</a></p>
                         <p><strong>Company:</strong> {user.company.name} - {user.company.catchPhrase}; {user.company.bs}</p>
                     </div>
                 </div>
-                ) : (<div><h1>Loading...</h1></div>)
+                ) : (<div><h1 className="loading-text">Loading...</h1></div>)
             }
         </div>  
     )

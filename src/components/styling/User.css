@@ -47,6 +47,13 @@ a.back-link:hover {
     transition:all 0.2s ease-in-out;
 }
 
+.loading-text {
+    font-size:60px;
+    font-weight:bolder;
+    border:solid white 5px;
+    padding:20px 80px 20px 80px;
+    box-shadow: 10px 15px 25px black;
+}
 
 
 @media screen and (max-width:550px) {
