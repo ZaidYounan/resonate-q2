@@ -50,11 +50,7 @@
   width:80%;
   display:flex;
   flex-direction:row;
-  background-image: linear-gradient(
-    0deg
-    ,white,#f4c85a),linear-gradient(
-    180deg
-    ,white,white);
+  background-color:azure;
     text-decoration:none;
 }
 
