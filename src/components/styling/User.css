@@ -6,9 +6,39 @@
 }
 
 .user-container {
+    display:flex;
+    flex-direction:row;
     border:solid black 1px;
     margin: 5%;
     padding: 3%;
     box-shadow: 5px 10px 15px;
+    background-color:azure;
+    font-size:larger;
+}
 
+.four {
+    top:3%;
+    right:1%;
+    border:solid black 1px;
+    padding:5%;
+    margin-right:5%;
+    box-shadow: 3px 6px 10px;
+}
+
+a.back-link {
+    text-decoration:none;
+    border:solid black 2px;
+    padding: 1%;
+    width:fit-content;
+    margin:2%;
+}
+
+@media screen and (max-width:550px) {
+    .user-container {
+        flex-direction:column;
+    }
+
+    .user-page {
+        flex-direction:column;
+    }
 }

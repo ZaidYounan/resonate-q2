@@ -28,14 +28,12 @@ function ContactList() {
               <div className="contact-text two"> 
                 <p><strong><a href={`/${data.id}`}>{data.name.toUpperCase()}</a></strong></p> 
                 <p><strong>Username:</strong> {data.username}</p>
-                <p><strong>Email:</strong> {data.email}</p>
                 <Link to={`/${data.id}`} className="view-link">View Full Profile</Link>
               </div>
               <div className="three">
                 <p><strong>Phone number:</strong> {data.phone}</p>
+                <p><strong>Email:</strong> {data.email}</p>
                 <p><a href={`http://${data.website}`}>{`www.${data.website}`}</a></p>
-                <p><strong>Company:</strong> {data.company.name} - {data.company.catchPhrase}, {data.company.bs}</p>
-                <p><strong>Address:</strong> {data.address.suite}, {data.address.street}, {data.address.city}</p>
               </div>
             </div>
             ))
@@ -44,4 +42,4 @@ function ContactList() {
     )
 }
 
-export default ContactList
+export default ContactList;
