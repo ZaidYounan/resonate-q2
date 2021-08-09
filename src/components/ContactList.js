@@ -21,7 +21,7 @@ function ContactList() {
 
     return (
         <div className="contacts-page">
-            <div className="topbar"><h1>Contacts</h1></div>
+            <div className="topbar"><h1>CONTACTS</h1></div>
         {
           contactList.map((data) => (
             <div className="contact-card">
