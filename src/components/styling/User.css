@@ -3,6 +3,8 @@
     display:flex;
     justify-content:center;
     align-items:center;
+    background-color:#023047;
+    color:white;
 }
 
 .user-container {
@@ -14,6 +16,7 @@
     box-shadow: 5px 10px 15px;
     background-color:azure;
     font-size:larger;
+    color:black;
 }
 
 .four {
@@ -27,10 +30,11 @@
 
 a.back-link {
     text-decoration:none;
-    border:solid black 2px;
+    border:solid white 2px;
     padding: 1%;
     width:fit-content;
     margin:2%;
+    color:white;
 }
 
 @media screen and (max-width:550px) {
