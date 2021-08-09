@@ -40,6 +40,12 @@ a.back-link {
     color:white;
 }
 
+a.back-link:hover {
+    background-color:white;
+    color:black;
+    transition:all 0.2s ease-in-out;
+}
+
 @media screen and (max-width:550px) {
     .user-container {
         flex-direction:column;
