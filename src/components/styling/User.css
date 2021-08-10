@@ -3,8 +3,10 @@
     display:flex;
     justify-content:center;
     align-items:center;
+    flex-direction:column;
     background-color:#023047;
     color:white;
+    padding:3%;
 }
 
 .user-container {
@@ -37,7 +39,6 @@ a.back-link {
     border:solid white 2px;
     padding: 1%;
     width:fit-content;
-    margin:2%;
     color:white;
 }
 
