@@ -22,10 +22,11 @@ function ContactList() {
     return (
         <div className="contacts-page">
             <div className="topbar"><h1>CONTACTS</h1></div>
-        {
+        
+        { contactList.length ? (
           contactList.map((data) => (
             <div className="contact-card">
-              <i class="fas fa-user fa-9x one"></i>
+              <i className="fas fa-user fa-9x one"></i>
               <div className="contact-text two"> 
                 <p><strong><a href={`/${data.id}`}>{data.name.toUpperCase()}</a></strong></p> 
                 <p><strong>Username:</strong> {data.username}</p>
@@ -37,7 +38,7 @@ function ContactList() {
                 <p><a href={`http://${data.website}`}>{`www.${data.website}`}</a></p>
               </div>
             </div>
-            ))
+            ))) : (<div><h1 className="loading-text">Loading...</h1></div>)
         }
       </div>
     )

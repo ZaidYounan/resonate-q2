@@ -6,15 +6,14 @@
     flex-direction:column;
     background-color:#023047;
     color:white;
-    padding:3%;
 }
 
 .user-container {
     display:flex;
     flex-direction:row;
     border:solid black 1px;
-    margin: 5%;
     padding: 3%;
+    margin-bottom:3%;
     box-shadow: 5px 10px 15px;
     background-color:azure;
     font-size:larger;

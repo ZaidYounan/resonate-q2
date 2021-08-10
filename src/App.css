@@ -1,5 +1,11 @@
 .App {
   font-family: 'PT Sans', sans-serif, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial;
+  height:100%;
+}
+
+body, html {
+  background-color:#023047;
+
 }
 
 .App-logo {

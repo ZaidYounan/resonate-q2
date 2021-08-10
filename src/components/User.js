@@ -21,10 +21,9 @@ function User({ id }){
 
     return (
         <div className="user-page">
-            <Link to="/" className="back-link"> <i class="fas fa-arrow-left fa-lg"></i> Contacts</Link>
             { user.address ? (
                 <div className="user-container">
-                    <i class="fas fa-user fa-10x four"></i>
+                    <i className="fas fa-user fa-10x four"></i>
                     <div className="user-text">
                         <p><h1>{user.name.toUpperCase()}</h1></p>
                         <p><strong>Username:</strong> {user.username}</p>
@@ -37,6 +36,7 @@ function User({ id }){
                 </div>
                 ) : (<div><h1 className="loading-text">Loading...</h1></div>)
             }
+            <Link to="/" className="back-link"> <i class="fas fa-arrow-left fa-lg"></i> Contacts</Link>
         </div>  
     )
 }

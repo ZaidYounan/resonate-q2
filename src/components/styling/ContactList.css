@@ -4,6 +4,8 @@
     flex-wrap:wrap;
     align-items:center;
     background-color:#023047;
+    overflow-y:scroll;
+    height:100%;
 }
 
 .contact-card {
@@ -17,6 +19,7 @@
     background-color:azure;
     align-items:center;
     font-size:larger;
+    flex-basis:40%;
   }
   
   .contact-text {
@@ -25,6 +28,15 @@
     flex-direction:column;
     justify-content:space-between;
   }
+
+  .loading-text-two {
+    font-size:60px;
+    font-weight:bolder;
+    border:solid white 5px;
+    padding:20px 80px 20px 80px;
+    box-shadow: 10px 15px 25px black;
+}
+
   
   .one {
     width:30%;
