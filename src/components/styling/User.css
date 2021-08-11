@@ -19,6 +19,7 @@
     font-size:larger;
     color:black;
     align-items:center;
+    width:90vw;
 }
 
 .four {
@@ -59,6 +60,9 @@ a.back-link:hover {
 @media screen and (max-width:700px) {
     .user-container {
         flex-direction:column;
+        width:90%;
+        height:90%;
+        padding:20%;
     }
 
     .user-page {
