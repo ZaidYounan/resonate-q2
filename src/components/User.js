@@ -27,7 +27,7 @@ function User({ id }){
                     <div className="user-text">
                         <p><h1>{user.name.toUpperCase()}</h1></p>
                         <p><strong>Username:</strong> {user.username}</p>
-                        <p><strong>Email:</strong> {user.email}</p>
+                        <p><strong>Email:</strong><a href={`http://${user.email}`}>{user.email}</a></p>
                         <p><strong>Address:</strong> {user.address.suite}, {user.address.street}, {user.address.city}</p>
                         <p><strong>Phone:</strong> {user.phone}</p>
                         <p><strong>Website:</strong> <a href={`http://${user.website}`}>{`www.${user.website}`}</a></p>

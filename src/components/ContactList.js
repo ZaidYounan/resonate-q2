@@ -34,7 +34,7 @@ function ContactList() {
               </div>
               <div className="three">
                 <p><strong>Phone number:</strong> {data.phone}</p>
-                <p><strong>Email:</strong> {data.email}</p>
+                <p><strong>Email:</strong> <a href={`http://${data.email}`}>{data.email}</a></p>
                 <p><a href={`http://${data.website}`}>{`www.${data.website}`}</a></p>
               </div>
             </div>
